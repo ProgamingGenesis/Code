@@ -1,3 +1,4 @@
+//updated for non-windows operation systems 
 #include <iostream>
 #include <time.h>
 using namespace std;
