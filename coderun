@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd Documents/code/
+
+if [ $2 == "cpp" ]; then
+    g++ $1.cpp -o $1
+    "/home/erik/Documents/code/"$1
+fi
+
+if [ $2 == "python" ]; then
+    python3 $1
+    
+fi
+
