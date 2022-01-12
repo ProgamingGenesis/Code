@@ -1,5 +1,3 @@
-import subprocess
-
 def ls_indexor (string):
     try:
         i = ls_txt.index(string)
@@ -24,7 +22,4 @@ while True:
             value = ls_txt[ls_indexor("to") + 1]
             cmd = name + value
             with open(file_name, 'w') as f:
-                f.write(cmd)
- 
-
-        
+                f.write(cmd)        
