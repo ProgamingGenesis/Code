@@ -1,0 +1,14 @@
+body {
+    background-color: #4c566a;
+  }
+  p {
+    color: #eceff4;
+  }
+  h1 {
+    text-align: center;
+    color: #eceff4;
+  }
+  .h1 {
+    font-family: Monaco, Lucida Console, Courier New
+  }
+  
